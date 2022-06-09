@@ -1,0 +1,121 @@
+/* tested with keyframes and flashing colours to familiarise myself with CSS again. */
+
+.rainbow-text {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.blink-text{
+    color: #000;
+    font-weight: bold;
+    font-size: 2rem;
+    animation: blinkingText 0.5s infinite;
+}
+@keyframes blinkingText{
+    0%		{ color: #10c018;}
+    25%		{ color: #1056c0;}
+    50%		{ color: #ef0a1a;}
+    75%		{ color: #254878;}
+    100%	{ color: #04a1d5;}
+}
+.blink-bg{
+    color: #fff;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    animation: blinkingBackground 0.5s infinite;
+}
+@keyframes blinkingBackground{
+    0%		{ background-color: #04a1d5;}
+    25%		{ background-color: #ef0a1a;}
+    50%		{ background-color: #254878;}
+    75%		{ background-color: #1056c0;}
+    100%	{ background-color: #10c018;}
+}
+@keyframes pop
+{
+  0%        { transform:scale(0);}
+  100%      { transform:scale(0);}
+}
+.flippy {
+    animation: flip 0.1s infinite;
+}
+@keyframes flip {
+    0%      { transform:scaleX(5) scaleY(1);}
+    100%    { transform:scaleX(-5) scaleY(0.1);}
+}
+.dropdown-check-list {
+    display: inline-block;
+  }
+  
+.dropdown-check-list .anchor {
+    text-align: center;
+    width:12vw!important;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #ccc;
+}
+
+.dropdown-check-list .anchor:after {
+    position: absolute;
+    content: "";
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    padding: 5px;
+    right: 10px;
+    top: 20%;
+    -moz-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+
+.dropdown-check-list .anchor:active:after {
+    right: 8px;
+    top: 21%;
+}
+
+.dropdown-check-list ul.items {
+    padding: 2px;
+    display: none;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-top: none;
+    text-align: left;
+}
+
+.dropdown-check-list ul.items li {
+    list-style: none;
+    padding-right:5px;
+}
+
+.dropdown-check-list.visible .anchor {
+    color: #0094ff;
+}
+
+.dropdown-check-list.visible .items {
+    display: block;
+}
+
+.center-table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    width: 12vw!important;
+    text-align: center;
+    cursor: pointer!important;
+    display: inline-block;
+    padding: 5px 10px 5px 10px!important;
+    border: 1px solid #ccc!important;
+}
+
+div .order-choice {
+    width: 12vw!important;
+
+}
