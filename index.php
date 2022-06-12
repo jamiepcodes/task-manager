@@ -61,12 +61,15 @@ require 'dbConnect.php';
                 </div>
                 
             </div>
-            <!-- Future add/edit task page -->
-            <div class="col-md-6">
-                <form action="addTaskPage.php" style="margin-left:25vw;">
-                <button action="submit">Add Task Here</button>
+        </div><!-- Future add/edit task page -->
+        <div class="row">
+            <div class="col text-center">
+                <form class="add-task-form" action="addTaskPage.php">
+                <button class="btn-soft-style" action="submit">Add Task Here</button>
                 </form>
             </div>
+        </div>
+            
     </div>
 </body>
 </html>
