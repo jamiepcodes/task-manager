@@ -13,8 +13,9 @@ require 'dbConnect.php';
 <body>
     <div class="container p-5 my-5">
         <div class="row">
-            <div class="col-12"> 
-                <h1>Add a task...</h1>
+            <div class="col-12 p-2">
+            <a class="back-btn" href="/taskmanager/index.php">Back</a> 
+                <h1 class="text-center">Add a task...</h1>
 
                 <!-- for future implementation to add more tasks to database -->
 
