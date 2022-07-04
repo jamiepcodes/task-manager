@@ -56,7 +56,7 @@ require 'dbConnect.php';
                     <input type="radio" id="difficulty" name="order_choice[]" value="difficulty">
                     <label for="difficulty">Difficulty</label>
                 </div>
-                <button class="btn-soft-style" action="submit">Make Timetable</button>
+                <button class="tm-btn-soft" action="submit">Make Timetable</button>
                 </form>
                 </div>
                 
@@ -64,8 +64,8 @@ require 'dbConnect.php';
         </div><!-- Future add/edit task page -->
         <div class="row">
             <div class="col text-center">
-                <form class="add-task-form" action="addTaskPage.php">
-                <button class="btn-soft-style" action="submit">Add Task Here</button>
+                <form class="tm-form" action="addTaskPage.php">
+                <button class="tm-btn-soft" action="submit">Add Task Here</button>
                 </form>
             </div>
         </div>

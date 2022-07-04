@@ -14,7 +14,15 @@ require 'dbConnect.php';
     <div class="container p-5 my-5">
         <div class="row">
             <div class="col-12 p-2">
-                
+                <form action="login.php" class="tm-form" method="POST">
+                    Username: <input type="text" value="Username"
+                        name="username" class="tm-input">
+                    <br>
+                    Password: <input type="text" value="Password"
+                        name="password" class="tm-input">
+                    <button type="submit" class="tm-btn-soft">Login</button>
+
+                </form>
             </div>
         </div>
     </div>
