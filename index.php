@@ -15,8 +15,9 @@ require 'dbConnect.php';
 <body>
     <div class="container p-5 my-5">
         <div class="row">
-            <h1 class="text-center">A Very Ad Hoc Timetable Generator</h1>
-            <div class="col text-center">
+            <div class="col-12 p-2 text-center">
+            <a class="button back-btn" href="/taskmanager/index.php">Sign Out</a>
+            <h1 class="text-center tm-h1">A Very Ad Hoc Timetable Generator</h1>
                 <form action="timetable.php" method="POST">
                 <div name="tasks" id="list1" class="dropdown-check-list" tabindex="100">
                     <span class="anchor">Select Tasks</span>
@@ -58,7 +59,7 @@ require 'dbConnect.php';
                 </div>
                 <button class="tm-btn-soft" action="submit">Make Timetable</button>
                 </form>
-                </div>
+            </div>
                 
             </div>
         </div><!-- Future add/edit task page -->

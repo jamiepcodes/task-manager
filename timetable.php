@@ -29,7 +29,7 @@ foreach($tasks_todo as $task) {
     <div class="container p-5 my-5 justify-content-center">
         <div class="row">
             <div class="col-md-12 p-2"> 
-                <a style="float: left" class="button text-left" href="/taskmanager/index.php">Back</a>
+                <a class="button back-btn" href="/taskmanager/index.php">Back</a>
                 <h1 class="text-center">Your Timetable</h1>
                 <h5 class="text-center"><?php echo date('d-m-y'); ?></h5>
                 <table cellpadding=5 border=1 class="center-table" >
