@@ -119,16 +119,16 @@ div .order-choice {
     width: 12vw!important;
 
 }
-
-.add-task-form {
+/* changing project specific stylings to 'tm' meaning taskmanager */
+.tm-form {
     padding-top:15px;
 }
 
-.add-task-input {
+.tm-input {
     margin-top: 5px;
 }
 
-.add-task-select {
+.tm-select {
     padding: 1px 2px;
 }
 
