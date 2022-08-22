@@ -1,6 +1,7 @@
 <?php 
-require 'dbConnect.php';
 
+require 'dbConnect.php';
+session_start();
 // var_dump();
 
 // for future implementation to add more tasks

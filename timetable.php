@@ -5,6 +5,7 @@ if(!$_POST['check_list']) {
     die();
 }
 require 'dbConnect.php';
+session_start();
 date_default_timezone_set('Europe/London');
 
 // checks task checklist and sets which tasks are due to be included on timetable
